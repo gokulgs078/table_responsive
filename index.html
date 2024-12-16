@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Table with Sorting</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h2>Table Responsive</h2>
+
+<div class="table-container">
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>
+            <div class="cell-content">
+              <span>Name</span>
+              <div class="button-group">
+                <button id="sortNameAsc">▲</button>
+                <button id="sortNameDesc">▼</button>
+              </div>
+            </div>
+          </th>
+          <th>Username</th>
+          <th>
+            <div class="cell-content">
+              <span>Email</span>
+              <div class="button-group">
+                <button id="sortEmailAsc">▲</button>
+                <button id="sortEmailDesc">▼</button>
+              </div>
+            </div>
+          </th>
+          <th>Phone</th>
+          <th>Website</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
